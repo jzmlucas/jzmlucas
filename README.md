@@ -4,7 +4,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jzmlucas&label=Profile%20views&color=0e75b6&style=flat" alt="jzmlucas" /> </p>
 
 🌱 Atualmente estou aprofundando em construção de APIs robustas utilizando **Spring Boot**, aplicando conceitos como:
-- Arquitetura em camadas (Controller → Service → Repository)
+- Arquitetura em camadas
 - Boas práticas de persistência com JPA/Hibernate
 - Modelagem de dados relacional
 - Princípios de código limpo
@@ -13,8 +13,6 @@ Além de estudar e ampliar conhecimentos em DevOps
 - Containerização com Docker
 - Integração com ambientes cloud (AWS / GCP)
 - Noções de CI/CD e automação de deploy
-
-- 👨‍💻 Encontre meus projetos em [https://github.com/jzmlucas](https://github.com/jzmlucas)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
