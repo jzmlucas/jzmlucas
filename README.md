@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jzmlucas&label=Profile%20views&color=0e75b6&style=flat" alt="jzmlucas" /> </p>
 
-🌱 Atualmente estou aprofundando em construção de APIs robustas utilizando **Spring Boot**, aplicando conceitos como:
+🌱 Sou estudante de Engenharia de Software e atualmente estou no módulo de construção de APIs utilizando **Spring Boot**, seguindo as boas práticas estou aplicando conceitos como:
 - Arquitetura em camadas
 - Boas práticas de persistência com JPA/Hibernate
 - Modelagem de dados relacional
@@ -13,6 +13,8 @@ Além de estudar e ampliar conhecimentos em DevOps
 - Containerização com Docker
 - Integração com ambientes cloud (AWS / GCP)
 - Noções de CI/CD e automação de deploy
+
+Também tenho projetos em paralelo com os módulos da faculdade, como por exemplo projetos utilizando Python <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="15"/>
 
 <h3 align="left">Entre em contato comigo:</h3>
 <p align="left">
