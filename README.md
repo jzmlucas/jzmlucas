@@ -1,137 +1,138 @@
-<h1 align="center">Olá, eu sou Lucas Joly 👋</h1>
+# Lucas Joly
 
-<h3 align="center">Estudante de Engenharia de Software | Backend Developer</h3>
+**Estudante de Análise e Desenvolvimento de Sistemas · Backend Developer**
 
-<p align="center">
-  <a href="https://linkedin.com/in/jzmlucas">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://linkedin.com/in/jzmlucas)
 
 ---
 
 ## Sobre mim
 
-Sou estudante de **Engenharia de Software**, atualmente direcionando meus estudos para o desenvolvimento **Backend com Java e Spring Boot**.
+Sou estudante de **Análise e Desenvolvimento de Sistemas**, com foco atual em desenvolvimento Backend.
 
-Tenho foco na construção de **APIs REST**, aplicando conceitos de arquitetura de software, persistência de dados, modelagem de bancos relacionais e boas práticas de desenvolvimento.
+Tenho construído APIs REST principalmente com **Java e Spring Boot**, trabalhando com persistência relacional, autenticação, integração com serviços externos e organização de código.
 
-Também venho ampliando meus conhecimentos em **Docker, Cloud e DevOps**, buscando entender não apenas o desenvolvimento da aplicação, mas também como ela é executada, testada e disponibilizada em diferentes ambientes.
+Meus projetos nascem de problemas concretos: um catálogo de filmes integrado ao TMDB e um aplicativo Android consumindo uma API própria.
 
-### Atualmente estudando
+Gosto de entender o sistema como um todo, do banco de dados até o cliente que consome a API. Também não me limito a uma linguagem específica: **Java é minha principal stack atualmente, mas tenho interesse e disposição para trabalhar com outras tecnologias de Backend, como Node.js, conforme a necessidade do projeto.**
 
-* Desenvolvimento de APIs REST com **Java e Spring Boot**
-* Arquitetura em camadas
-* **JPA/Hibernate** e persistência de dados
-* Modelagem e relacionamento de bancos de dados
-* Princípios de **Clean Code**
-* Tratamento e validação de dados
-* Testes automatizados
-* **Docker** e containerização
-* Fundamentos de **AWS e GCP**
-* Conceitos de **CI/CD** e automação de deploy
+Ainda estou em formação e tenho clareza do que preciso aprender. Meu objetivo é entrar em um time onde possa contribuir, receber feedback, revisar código e evoluir com desenvolvedores mais experientes.
 
 ---
 
-## Projetos em destaque
+## Projetos
 
-> Estou construindo e evoluindo meus projetos conforme avanço na graduação e nos estudos de Backend.
+### 🎬 WatchUSee - API de catálogo e listas de filmes
 
-### API REST com Spring Boot
+`Java` · `Spring Boot` · `Spring Security` · `JWT` · `JPA/Hibernate` · `PostgreSQL` · `Flyway` · `Docker`
 
-**Java • Spring Boot • JPA/Hibernate • PostgreSQL • Docker**
+API REST para descoberta de filmes e gerenciamento de listas pessoais, integrada à API pública do TMDB.
 
-Projeto desenvolvido com foco em construção de uma API REST e aplicação de boas práticas de desenvolvimento.
+O projeto foi desenvolvido pensando em um cenário próximo de uma aplicação real, incluindo autenticação, persistência, integração com serviço externo e controle de acesso.
 
-**Principais conceitos aplicados:**
+**Principais implementações:**
 
-* Arquitetura em camadas
-* Modelagem de dados relacionais
-* Persistência com JPA/Hibernate
-* Validação de dados
-* Tratamento de exceções
-* Desenvolvimento de endpoints REST
-* Containerização com Docker
+* Arquitetura em camadas com separação de responsabilidades entre controllers, services e repositories
+* APIs REST versionadas e estruturadas com DTOs próprios
+* Autenticação e autorização utilizando **Spring Security e JWT**
+* Validação de dados de entrada e tratamento global de exceções
+* Persistência de dados com **JPA/Hibernate e PostgreSQL**
+* Controle de alterações do banco utilizando **Flyway**
+* Integração com a API do **TMDB**, com cliente HTTP configurado e tratamento de falhas
+* Gerenciamento de watchlist com diferentes estados, como filmes para assistir e já assistidos
+* **Paginação da watchlist**, com filtros, ordenação e controle do tamanho das páginas
+* Modelagem de relacionamentos entre usuários, filmes e listas
+* Containerização do ambiente utilizando Docker
 
-🔗 **[Ver repositório](#)**
+**→ [Ver repositório](https://github.com/jzmlucas/watchusee-backend)**
 
 ---
 
-##  Tecnologias e ferramentas
+### 📱 WatchUSee Android - cliente mobile
+
+`Kotlin` · `Android` · `Retrofit` · `REST API`
+
+Aplicativo Android desenvolvido como cliente do backend do WatchUSee.
+
+O projeto permite utilizar na prática a API desenvolvida no backend, mostrando como decisões de arquitetura, contratos de resposta, autenticação e paginação afetam o consumidor da aplicação.
+
+**Principais pontos:**
+
+* Consumo da API REST desenvolvida no backend
+* Autenticação integrada com JWT
+* Comunicação HTTP utilizando Retrofit
+* Gerenciamento de watchlist e seus diferentes estados
+* Paginação dos dados recebidos do backend
+* Tratamento de estados de carregamento e erros
+* Persistência do token de autenticação no dispositivo
+
+**→ [Ver repositório](https://github.com/jzmlucas/watchusee-android)**
+
+---
+
+## Tecnologias
 
 ### Backend
 
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="Java"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="40" alt="Spring Boot"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python"/>
-</p>
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square\&logo=openjdk\&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square\&logo=springboot\&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square\&logo=springsecurity\&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
 
-### Bancos de dados
+### Dados
 
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="PostgreSQL"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="MySQL"/>
-</p>
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square\&logo=postgresql\&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square\&logo=mysql\&logoColor=white)
+![Hibernate](https://img.shields.io/badge/JPA%2FHibernate-59666C?style=flat-square\&logo=hibernate\&logoColor=white)
+![Flyway](https://img.shields.io/badge/Flyway-CC0200?style=flat-square\&logo=flyway\&logoColor=white)
 
-### DevOps, Cloud e ferramentas
+### Mobile
 
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="Docker"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" height="40" alt="AWS"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="40" alt="Google Cloud"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="Linux"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="40" alt="Bash"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="Git"/>
-</p>
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square\&logo=kotlin\&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square\&logo=android\&logoColor=white)
 
-### Fundamentos e outras tecnologias
+### Infraestrutura e ferramentas
 
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="HTML5"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="CSS3"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="40" alt="C"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" height="40" alt="Arduino"/>
-</p>
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square\&logo=docker\&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square\&logo=git\&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square\&logo=linux\&logoColor=black)
 
 ---
 
-##  Formação
+## Atualmente estudando
 
-**Engenharia de Software**
+* Testes automatizados com **JUnit e Mockito**
+* Boas práticas de desenvolvimento e arquitetura de APIs
+* Segurança de aplicações e autenticação
+* Deploy e pipelines de **CI/CD**
+* Fundamentos de **AWS e GCP**
+* Novas tecnologias e ecossistemas de Backend
 
-Atualmente em formação, desenvolvendo conhecimentos em:
+Tenho como objetivo aprofundar meus conhecimentos em **desenvolvimento Backend**, sem me limitar a uma linguagem ou framework específico.
 
-* Engenharia e arquitetura de software
-* Programação orientada a objetos
-* Banco de dados
+---
+
+## Formação
+
+**Análise e Desenvolvimento de Sistemas** - em andamento
+
+Estudos envolvendo:
+
+* Programação Orientada a Objetos
+* Estruturas de Dados e Algoritmos
+* Banco de Dados
 * Desenvolvimento de APIs
-* Estruturas de dados e algoritmos
-* Sistemas e infraestrutura
-* Boas práticas de desenvolvimento
+* Engenharia de Software
+* Desenvolvimento de Sistemas
 
 ---
 
-## GitHub
+## Contato
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jzmlucas&show_icons=true&hide_border=true&locale=pt-br" alt="Estatísticas do GitHub"/>
-</p>
+Estou em busca de **estágio ou oportunidade júnior em desenvolvimento Backend**.
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jzmlucas&layout=compact&hide_border=true&locale=pt-br" alt="Linguagens mais utilizadas"/>
-</p>
+Minha experiência atual é principalmente com **Java e Spring Boot**, mas tenho interesse em trabalhar com diferentes tecnologias e stacks de Backend, incluindo Node.js e outros ecossistemas.
 
----
+**Modelo:** remoto, híbrido ou presencial em São José dos Campos e Jacareí - SP.
 
-## Entre em contato
-
-<p>
-  <a href="https://linkedin.com/in/jzmlucas">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-</p>
-
-<p>
-  Estou aberto a oportunidades de <strong>estágio e posições iniciais em desenvolvimento Backend</strong>, especialmente com Java e Spring Boot.
-</p>
+[![Falar comigo no LinkedIn](https://img.shields.io/badge/Falar_comigo_no_LinkedIn-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://linkedin.com/in/jzmlucas)
