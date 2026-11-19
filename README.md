@@ -10,4 +10,4 @@ Também desenvolvo o **FolhaAgenda**, um SaaS para gestão de agendamentos.
 
 Gosto de entender problemas de ponta a ponta e construir soluções que conectam aplicações, APIs e automações.
 
-[LinkedIn](https://www.linkedin.com/in/jzmlucas) · [Projetos](https://github.com/jzmlucas?tab=repositories)
+[Projetos](https://github.com/jzmlucas?tab=repositories)
